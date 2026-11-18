@@ -1,0 +1,14 @@
+{
+  "/api": {
+    "target": "http://127.0.0.1",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/api": "/phpcapstone1/api" }
+  },
+  "/uploads": {
+    "target": "http://127.0.0.1",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/uploads": "/phpcapstone1/uploads" }
+  }
+}
